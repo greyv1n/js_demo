@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,200;1,300&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ddcfcf">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header class="header ">
+        <div class="container">
+            <div class="row">
+                <div class="header__wrap fixed " >
+                    <div class="header__inner">
+                        <div class="header__img">
+                            <img class='header__avatar' src="assets/img/logo.png" alt="" class="header__img">
+                        </div>
+                        <div class="user">
+                            <div class="user__name">Сергей<br> Крылов</div>
+                            <div class="user__prof">UI &amp; UX Дизайнер</div>
+                        </div>
+    
+                    </div>
+                    <nav class="header__nav ">
+                        <a class="header__item" href="#work">Портфолио</a>
+                        <a class="header__item" href="#about">Обо мне</a>
+                        <a class="header__item" href="#blog">Блог</a>
+                        <a class="header__item" href="#contact">Контакты</a>
+                        <a class="btn btn--header btn__order" href="#" data-modal="modal__order">Написать</a>
+                    </nav>
+
+                    <button type='button' class="burger">
+                        <img class="burger__icon" src="assets/img/menu.svg" alt="">
+                    </button type='button'>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <section class="intro" id='contact'>
+                <div class="intro__inner">
+                    <div class="intro__left">
+                        <div class="intro__text">Привет!</div>
+                        <h1 class="intro__title">Я Сергей Крылов</h1>
+                        <h6 class="intro__subtitle">UI & UX Дизайнер</h6>
+                        <div class="social">
+                            <a class="social__item" href="https://www.instagram.com/it.warszawa/" target="_blank"><img src="assets/img/social/1 (1).jpg" alt=""></a>
+                            <a class="social__item" href="https://www.instagram.com/it.warszawa/" target="_blank"><img src="assets/img/social/1 (1).png" alt=""></a>
+                            <a class="social__item" href="https://www.instagram.com/it.warszawa/" target="_blank"><img src="assets/img/social/1 (2).png" alt=""></a>
+                            <a class="social__item" href="https://www.instagram.com/it.warszawa/" target="_blank"><img src="assets/img/social/1 (3).png" alt=""></a>
+                            <a class="social__item" href="https://www.instagram.com/it.warszawa/" target="_blank"><img src="assets/img/social/1 (4).png" alt=""></a>
+                        </div>
+                        <div class="intro_btn">
+                            <a href="#" class="btn btn__order" data-modal="modal__order">Написать мне</a>
+                        </div>
+                        <img src="assets/img/intro.png" alt="" class="intro__photo">
+
+                    </div> 
+                </div> <!--intro__inner-->          
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="works" id='work'>
+                <div class="works__nav" data-aos="fade-right">
+                    <a class="works__nav--link" data-filter='all' href="#">Все работы</a>
+                    <!-- <a class="works__nav--link" data-filter='app' href="#">App</a> -->
+                    <a class="works__nav--link" data-filter='website' href="#">Вебсайты</a>
+                    <a class="works__nav--link" data-filter='desing' href="#">Брендинг</a>
+                </div>
+
+                <div class="portfolio">
+                    <div class="potrfolio__col website">
+                        <div class="portfolio__item " data-modal="modal__works">
+                            <div class="img_wrap">
+                                <img src="assets/img/works/1.jpg" alt="" class="portfolio__img">
+                                <div class="category__tag pink">Landing Page</div>
+                            </div>
+                            <div class="potrfolio__inner">
+                                <div class="portfolio__category">Website</div>
+                                <div class="portfolio__project">
+                                    <div class="project__title">Лендинг</div>
+                                    <div class="project__year">2020</div>
+                                </div>
+                            </div>             
+                        </div>             
+                    </div>
+                    <div class="potrfolio__col website">
+                        <div class="portfolio__item " data-modal="modal__works">
+                            <div class="img_wrap">
+                                <img src="assets/img/works/2.jpg" alt="" class="portfolio__img">
+                                <div class="category__tag violet">Website</div>
+                            </div>
+                            <div class="potrfolio__inner">
+                                <div class="portfolio__category">Website</div>
+                                <div class="portfolio__project">
+                                    <div class="project__title">Сайт-визитка</div>
+                                    <div class="project__year">2020</div>
+                                </div>
+                            </div>         
+                        </div>     
+                    </div>
+                    <div class="potrfolio__col website">  
+                        <div class="portfolio__item " data-modal="modal__works">
+                            <div class="img_wrap">
+                                <img src="assets/img/works/3.jpg" alt="" class="portfolio__img">
+                                <div class="category__tag orange">Landing Page</div>
+                            </div>
+                            <div class="potrfolio__inner">
+                                <div class="portfolio__category">Website</div>
+                                <div class="portfolio__project">
+                                    <div class="project__title">Лендинг</div>
+                                    <div class="project__year">2021</div>
+                                </div>
+                            </div>      
+                        </div>                                      
+                    </div>
+                    <div class="potrfolio__col desing">
+                        <div class="portfolio__item " data-modal="modal__works">
+                            <div class="img_wrap">
+                                <img src="assets/img/works/4.jpg" alt="" class="portfolio__img">
+                            </div>
+                            <div class="potrfolio__inner">
+                                <div class="portfolio__category">Design</div>
+                                <div class="portfolio__project">
+                                    <div class="project__title">Брендинг</div>
+                                    <div class="project__year">2020</div>
+                                </div>
+                            </div>   
+                        </div>                                           
+                    </div>
+                    <div class="potrfolio__col desing">
+                        <div class="portfolio__item" data-modal="modal__works">
+                            <div class="img_wrap">
+                                <img src="assets/img/works/5.jpg" alt="" class="portfolio__img">
+                            </div>
+                            <div class="potrfolio__inner">
+                                <div class="portfolio__category">Design</div>
+                                <div class="portfolio__project">
+                                    <div class="project__title">Брендинг</div>
+                                    <div class="project__year">2020</div>
+                                </div>
+                            </div>    
+                        </div>                                          
+                    </div>
+                    <div class="potrfolio__col desing">
+                        <div class="portfolio__item" data-modal="modal__works">
+                            <div class="img_wrap">
+                                <img src="assets/img/works/6.jpg" alt="" class="portfolio__img">
+                            </div>
+                            <div class="potrfolio__inner">
+                                <div class="portfolio__category">Design</div>
+                                <div class="portfolio__project">
+                                    <div class="project__title">Брендинг</div>
+                                    <div class="project__year">2020</div>
+                                </div>
+                            </div>  
+                        </div>                      
+                    </div> <!--portfolio__col-->
+                </div> <!--portfolio-->
+            </div> <!--works-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <section class="about" id='about'>
+
+                <div class="about__left">
+                    <img class='about__img' src="assets/img/2.jpg" alt="">
+               </div>
+
+                <div class="about__rigth" data-aos="fade-right">
+                    <h3 class="about__subtitle">ОБО мне</h3>
+                    <h2 class="about__title">Кто я</h2>
+                    <div class="about__text">
+                        <p>ТОП-1 в категории "Графический дизайн". </p>
+                        <p>Более 10 лет опыта и большой портфель успешных проектов.</p>
+                        <p>9 моих логотипов вошли в Logolounge 12 в 2020 году</p>
+                        <p>Я создам логотип, который будет говорить с вашей целевой аудиторией на одном языке.
+                            Дополню его фирменным стилем, помогающим вашим продажам.
+                            И составлю бренд-бук, который поможет вам использовать все возможности нового языка коммуникации с вашим клиентом.</p>
+                    </div>
+                    <a href="#" class='btn btn__order' data-modal="modal__order">Написать мне</a>
+                </div> <!--about__rigth-->
+            </section> <!--section-->
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <div class="reviews__btn">
+                    <img src="assets/img/reviews/left-arrow.svg" alt="" class="btn--left">
+                    <img src="assets/img/reviews/right-arrow.svg" alt="" class="btn--rigth">
+                </div>
+            </div>
+           
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    <p>Все понравилось! Прекрасный исполнитель, тщательно и кропотливо делает свою работу, доводит ее до конца. Терпеливо и без видимого недовольства выслушивает, принимает и выполняет новые задачи, которые ставились на языке обычного "юзера".
+                        Прекрасное впечатление от работы, буду сотрудничать и дальше.</p>
+                </div>
+
+
+                <div class="reviews__author">
+                    <img class="reviews__photo" src="assets/img/reviews/1.png" alt="">
+                    <div class="reviews_name">Сергей</div>
+                    <div class="reviews__company">Создание Landing Page</div>
+                    <div class="reviews__rating">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <!-- <img class="reviews__star unactive" src="assets/img/icon/star.svg" alt=""> -->
+                    </div>
+                </div>
+            </div> 
+            <div class="reviews__item" style="display: none;">
+                <div class="reviews__text">
+                    <p>Очень доволена результатом работы над нашим сайтом. В первую очередь тем, что работа доведена до конца и сайт полностью соответствует нашим пожеланиям несмотря на то, что я довольно капризный заказчик</p>
+                </div>
+
+                <div class="reviews__author" >
+                    <img class="reviews__photo" src="assets/img/reviews/2.png" alt="">
+                    <div class="reviews_name">Оксана</div>
+                    <div class="reviews__company">Создание Landing Page</div>
+                    <div class="reviews__rating">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <!-- <img class="reviews__star unactive" src="assets/img/icon/star.svg" alt=""> -->
+                    </div>
+                </div>
+            </div> 
+
+            <div class="reviews__item" style="display: none;">
+                <div class="reviews__text">
+                    <p>Заказывали дизайн для сайта компании. Хочется отметить, что с вами очень легко и приятно работать. Спасибо вам за оперативность, различные предложенные варианты дизайна в процессе работы, а также за понимание чего именно хочет заказчик.</p>
+                </div>
+                <div class="reviews__author">
+                    <img class="reviews__photo" src="assets/img/reviews/3.png" alt="">
+                    <div class="reviews_name">Владимир</div>
+                    <div class="reviews__company">Брендинг</div>
+                    <div class="reviews__rating">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <img class="reviews__star" src="assets/img/icon/star.svg" alt="">
+                        <!-- <img class="reviews__star unactive" src="assets/img/icon/star.svg" alt=""> -->
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <section class="news">
+
+                <div class="news__header">
+                    <h2 class="news__title">Блог</h2>
+                    <div class="news__text">Что нужно знать о UI & UX</div>
+                </div>
+    
+                <div class="articles" id='blog'>
+                    <div class="articles__col">
+                        <div class="articles__item">
+                            <div class="articles__header">
+                                <time class="articles__date">12 <br>
+                                    Дек</time>
+                                <a href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">
+                                    <img class='articles__photo' src="assets/img/articles/4.jpg" alt="">        
+                                </a>                        
+                            </div>
+
+                            <div class="articles__contecnt">
+                                <a href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">
+                                    <h4 class="articles__title">Что такое UI-дизайн</h4>
+                                </a>
+                                <div class="articles__cat">«пользовательский интерфейс»</div>
+                                <div class="articles__text">UI-дизайн — это процесс воплощения в визуальных деталях пользовательского опыта, который разработали на основании изучения мира клиента, исследования целевой аудитории.</div>
+                            </div>
+                            <a class="btn btn--sm" href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">Читать дальше</a>
+                        </div>
+                    </div>
+                    <div class="articles__col">
+                        <div class="articles__item">
+                            <div class="articles__header">
+                                <time class="articles__date">15 <br>
+                                    Дек</time>
+                                <a href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">
+                                    <img class='articles__photo' src="assets/img/articles/2.jpg" alt="">        
+                                </a>                        
+                            </div>
+
+                            <div class="articles__contecnt">
+                                <a href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">
+                                    <h4 class="articles__title">UX/UI-дизайн</h4>
+                                </a>
+                                <div class="articles__cat">Требования к качеству</div>
+                                <div class="articles__text">
+                                    <p>Стремление к единообразию — элементы дизайна должны легко узнаваться, даже если пользователь встретил ваш сайт впервые. </p>
+                                </div>
+                            </div>
+                            <a class="btn btn--sm" href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">Читать дальше</a>
+                        </div>
+                    </div>
+                    <div class="articles__col">
+                        <div class="articles__item">
+                            <div class="articles__header">
+                                <time class="articles__date">18 <br>
+                                    Янв</time>
+                                <a href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">
+                                    <img class='articles__photo' src="assets/img/articles/3.jpg" alt="">        
+                                </a>                        
+                            </div>
+
+                            <div class="articles__contecnt">
+                                <a href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">
+                                    <h4 class="articles__title">Предотвращение ошибок</h4>
+                                </a>
+                                <div class="articles__cat">Путь клиента</div>
+                                <div class="articles__text">Идеальный интерфейс состоит из туннелей по которым пользователи могут моментально долетать до цели. Стремитесь к точке, когда пользователи даже не смогут ошибиться на пути к цели. Даже простые шаги и статусы порой могут очень сильно помочь.</div>
+                            </div>
+                            <a class="btn btn--sm" href="https://ux-journal.ru/chto-takoe-ux-ui-dizajn-i-kak-popast-v-eti-professii.html" target="_blank">Читать дальше</a>
+                        </div>
+                    </div>
+                </div> <!--articles-->   
+            </section> <!--section-->
+        </div>    
+    </div> <!--container-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer__text">© 2021 Warszawa - Templates</div>
+                        <div class="footer__social">
+                            <a href="#" target="_blank">
+                                <img src="assets/img/social_footer/behance.svg" alt="" width="24">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="assets/img/social_footer/dribbble.svg" alt="" width="18">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="assets/img/social_footer/instagram.svg" alt="" width="18">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="assets/img/social_footer/linked.svg" alt="" width="18">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="assets/img/social_footer/twitter.svg" alt="" width="18">
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="footer__nav">
+                        <a href="#work" class="footer__nav--link">Портфолио</a>
+                        <a href="#about" class="footer__nav--link">Обо мне</a>
+                        <a href="#blog" class="footer__nav--link">Блог</a>
+                        <a href="#contact" class="footer__nav--link">Контакты</a>
+                        <a href="#" class="footer__nav--link btn btn__order" data-modal="modal__order">Написать</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- Modals order-->
+    <div class="modal" id='modal__order' >
+        <div class="modal__dialog modal__dialog--sm">
+
+            <button class="modal__close" type="button">
+                <img src="assets/img/modal/cancel.svg" alt="close">
+            </button>
+
+            <div class="contact">
+                <div class="contact__left">
+                    <h3 class="modal__title">Ваш вопрос</h3>
+                    <h4 class="modal__subtitle">Напишите мне и я вам перезвоню</h4>
+                    <ul class="contact__info">
+                        <li><img class="contact__info--icon" src="assets/img/modal/phone.svg " alt="">(097) 767 3000</li>
+                        <li><img class="contact__info--icon" src="assets/img/modal/email.svg" alt="" >greyv1n@yandex.ru</li>
+                    </ul>
+                    <form action="" method="POST">
+                        <div class="form__group"> 
+                            <label class="form__label" for="input-email" >Adress e-mail</label>
+                            <input class="form__input" name="input-email" type="text"  placeholder="e-mail" id='input-email'>
+                        </div>
+                        <div class="form__group"> 
+                            <label class="form__label" for="input-text" >Вопрос</label>
+                            <textarea class="form__textarea" name="input-text" id="input-text" placeholder="Напишите ваш вопрос"></textarea>
+                        </div>
+                    </form>
+                    <div class="text-rigth">
+                        <button class="btn">Отправить</button>
+                    </div>
+                </div>
+                <div class="contact__right">
+                    <img class="contact__right--img" src="assets/img/1.jpg" alt="">
+                </div>
+            </div> <!--contact-->
+        </div>
+    </div>
+
+        <!-- Modals Work-->
+        <div class="modal" id='modal__works'>
+            <div class="modal__dialog">
+    
+                <button class="modal__close" type="button">
+                    <img src="assets/img/modal/cancel.svg" alt="close">
+                </button>
+    
+                <div class="modal-work">
+                    <div class="modal-work__preview">
+                        <img class="modal-work__photo" src="assets/img/1.jpg" alt="">
+                    </div>
+                    <div class="modal-work__content">
+                        
+                        <div class="modal-work__header">
+                            <h3 class="modal-work__title">Project title</h3>
+                            <div class="modal-work__info">
+                                Category <span>|</span>2021
+                            </div>
+                        </div>
+    
+                        <div class="modal-work__client">Client:
+                            <span>Creative Agency</span>
+                        </div>
+    
+                        <div class="modal-work__text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tenetur. Obcaecati voluptate eligendi deleniti adipisci omnis nesciu. </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tenetur. Obcaecati voluptate quod, exercitationem maxime aliquid maiores fugit esse. Voluptatibus, id. </p>
+                        </div>
+    
+                        <div class="modal-work__footer">
+                            <button class="modal-work__btn">
+                                <img src="assets/img/modal/left-arrow.svg" height="12px" alt="">
+                                Previous</button>
+                            <button class="modal-work__btn">
+                                Next
+                                <img src="assets/img/modal/next.svg" height="12px" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div> <!--modal-work-->
+            </div>
+        </div>
+    
+        <!-- <div class="modal" id='modal__resume'>
+            <div class="modal__dialog">
+    
+                <button class="modal__close" type="button">
+                    <img src="images/modal/cancel.svg" alt="close">
+                </button>
+    
+                <div class="modal__content">
+                    <h3 class="modal__title text-center">Resume</h3>
+    
+                    <div class="text-center">
+                        <a class="btn btn--thin" href="#">Dounload PDF</a>
+                        <a class="btn btn--thin" href="#">Print</a>
+                    </div>
+    
+                    <div class="timeline">
+                        <div class="timeline__col text-rigth">
+                            <h4 class="timeline__title">Experience</h4>
+                            
+                            <div class="timeline__item">
+                                <time class="timeline__date" datetime="11-12-2019">2017 - <b>Present</b> </time>
+                                <h5 class="timeline__subdate">Freelancer</h5>
+                                <div class="timeline__position">Art Director</div>
+                                <div class="timeline__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis laboriosam aut, excepturi soluta culpa, perspiciatis quam odit doloribus mollitia quia accusamus pariatur repellat. Temporibus ex vel assumenda quae unde? </p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <time class="timeline__date" datetime="11-12-2019">2017 - <b>Present</b> </time>
+                                <h5 class="timeline__subdate">Freelancer</h5>
+                                <div class="timeline__position">Art Director</div>
+                                <div class="timeline__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis laboriosam aut, excepturi soluta culpa, perspiciatis quam odit doloribus mollitia quia accusamus pariatur repellat. Temporibus ex vel assumenda quae unde? </p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <time class="timeline__date" datetime="11-12-2019">2017 - <b>Present</b> </time>
+                                <h5 class="timeline__subdate">Freelancer</h5>
+                                <div class="timeline__position">Art Director</div>
+                                <div class="timeline__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis laboriosam aut, excepturi soluta culpa, perspiciatis quam odit doloribus mollitia quia accusamus pariatur repellat. Temporibus ex vel assumenda quae unde? </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="timeline__col ">
+                            <h4 class="timeline__title">Experience</h4>
+    
+                            <div class="timeline__item">
+                                <time class="timeline__date" datetime="11-12-2019">2017 - 2020 </time>
+                                <h5 class="timeline__subdate">UI/UX Design</h5>
+                                <div class="timeline__position">LA University USA</div>
+                            </div>
+                            <div class="timeline__item">
+                                <time class="timeline__date" datetime="11-12-2019">2017 - 2020 </time>
+                                <h5 class="timeline__subdate">UI/UX Design</h5>
+                                <div class="timeline__position">LA University USA</div>
+                            </div>
+                            <h4 class="timeline__title">Skills</h4>
+    
+                            <div class="progress">
+                                <div class="progress-bar">
+                                    <div class="progress-bar__item">
+                                        <div class="progress-bar__left">
+                                            <div class="progress-bar__title">UI/UX Design</div>
+                                        </div>
+                                        <div class="progress-bar__rigth">
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__progress" style='width: 90%;'></div>
+                                            </div>        
+                                        </div>
+                                    </div>                            
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar__item">
+                                        <div class="progress-bar__left">
+                                            <div class="progress-bar__title">UI/UX Design</div>
+                                        </div>
+                                        <div class="progress-bar__rigth">
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__progress" style='width: 80%;'></div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar__item">
+                                        <div class="progress-bar__left">
+                                            <div class="progress-bar__title">UI/UX Design</div>
+                                        </div>
+                                        <div class="progress-bar__rigth">
+                                            <div class="progress-bar__bar">
+                                                <div class="progress-bar__progress" style='width: 60%;'></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                            
+                            <div class="timeline__item">
+                                <h4 class="timeline__title">Awards</h4>
+                                <time class="timeline__date" datetime="11-12-2019">2020 </time>
+                                <h5 class="timeline__subdate">UI/UX Design</h5>
+                                <div class="timeline__position">Art Director</div>
+                                <div class="timeline__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis laboriosam aut, excepturi soluta culpa, perspiciatis quam odit doloribus mollitia quia accusamus pariatur repellat. Temporibus ex vel assumenda quae unde? </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="text-center">
+                        <a href="#" class="btn" data-modal='modal__works'>Hire me</a>
+                    </div>
+    
+                </div> 
+            </div>
+        </div>     -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/burger.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/animate.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/active_header.js"></script>
+    <script src="assets/js/fixed.js"></script>
+    <script src="assets/js/filter.js"></script>
+    <script src="assets/js/modals.js"></script>
+    <script src="assets/js/scroll.js"></script>
+</body>
+</html>
